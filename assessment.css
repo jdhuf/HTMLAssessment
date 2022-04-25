@@ -55,6 +55,11 @@ blockquote {
 #checkbox-grid {
   list-style-type: none;
 }
+
+#teamRoster ol::first-line {
+  font-weight: bold;
+
+}
 /* User Story #1
 Your headers should be changed to your favorite color and set to a sans-serif font. (Notice they are not all the same tag!)
 
