@@ -1,0 +1,77 @@
+h2,
+h3,
+h4,
+h5 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+th {
+  color: brown;
+  font-weight: bold;
+}
+
+table {
+  border: 3px solid coral;
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+
+a:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: purple;
+  color: pink;
+}
+
+#teamRoster :first-child ul {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: left;
+}
+
+#teamRoster :last-child ul {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: left;
+}
+
+#teamRoster :first-child img {
+  display: none;
+}
+
+#teamRoster :last-child img {
+  display: none;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+}
+/* User Story #1
+Your headers should be changed to your favorite color and set to a sans-serif font. (Notice they are not all the same tag!)
+
+User Story #2
+Your table should have bold/colored table headers, as well as a table border. Content should be centered in their respective blocks.
+
+User Story #3
+Your list should have square list bullets.
+
+User Story #4
+When the user hovers over a hyperlink the background color of the hyperlink should change and it should not be underlined.
+
+User Story #5
+Set the background color of the block quote text (second paragraph) to a dark color and the font color to a contrasting light color.
+
+User Story #6
+Make each team's image the background image for the list. Hint Check out the element > element and :first-child / :last-child selectors. Remove the image from above the team's list.
+
+User Story #7
+The checkbox list should not be bulleted. */
